@@ -40,6 +40,7 @@ namespace NumericTypes
 
             // int mdas = (w + x) - 6 * y + (12 * 4) / 3 + 12;
 
+            //Quotient and Remainder
             int a = 7;
             int b = 4;
             int c = 3;
@@ -47,6 +48,30 @@ namespace NumericTypes
             int e = (a + b) % c;
             Console.WriteLine($"quotient: {d}");
             Console.WriteLine($"remainder: {e}");
+
+            //Range from Max to Min Integers
+
+            int max = int.MaxValue;
+            int min = int.MinValue;
+            Console.WriteLine($"The range of integers is {min} to {max}");
+
+            Console.WriteLine("Example of Overflow");
+
+            int what = max + 3;
+            Console.WriteLine($"An example of overflow: {what}");
+
+            double p = 5;
+            double q = 4;
+            double r = 2;
+            double s = (p + q) / r;
+            Console.WriteLine(s);
+
+            // double max = double.MaxValue;
+            // double min = double.MinValue;
+            // Console.WriteLine($"The range of double is {min} to {max}");
+
+            double third = 1.0 / 3.0;
+            Console.WriteLine(third);
         }
     }
 }
