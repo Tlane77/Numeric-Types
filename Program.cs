@@ -72,6 +72,10 @@ namespace NumericTypes
 
             double third = 1.0 / 3.0;
             Console.WriteLine(third);
+
+            decimal minimum = decimal.MinValue;
+            decimal maximum = decimal.MaxValue;
+            Console.WriteLine($"The range of the decimal type is {minimum} to {maximum}");
         }
     }
 }
